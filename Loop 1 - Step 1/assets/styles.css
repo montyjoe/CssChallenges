@@ -1,6 +1,11 @@
 * {
   background: #85A5D4;
   font-family: Roboto, sans-serif;
+  text-decoration: none;
+}
+
+sup,sub {
+  background: transparent;
 }
 
 .wrapper {
@@ -12,12 +17,99 @@
   position: fixed;
   left: 50%; top: 50%;
   transform: translate(-50%, -50%);
+  background: white;
+  border-radius: 8px;
+  padding: 0px 20px 0px 20px;
+  box-shadow:  0px 5px 27px 1px rgba(0,0,0,0.59);
   display: flex;
-  outline: 1px dotted red;
+  /* outline: 1px dotted red; */
+}
+
+.panel {
+  flex: 1;
+  display: flex;
+  text-align: center;
+  padding: 20px 0px 20px 0px;
+  flex-direction: column;
+  background: transparent;
+  /* border: 1px dotted blue; */
 }
 
 .device-box {
   flex: 1;
   display: flex;
-  background: white;
+  text-align: center;
+  flex-direction: column;
+  padding: 40px;
+  background: transparent;
+  /* border: 1px dotted red; */
 }
+
+.device-box:hover {
+  flex: 1;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  padding: 40px;
+  background: #efefef;
+}
+
+.device-img-cont {
+  flex: 3;
+  background: transparent;
+  /* border: 1px dotted green; */
+}
+
+.device-img {
+  position: relative;
+  background: transparent;
+  width: 30%; height: auto;
+}
+
+.device-header {
+  color: #2866c1;
+  flex: 1;
+  font-weight: 500;
+  font-size: 1.5vw;
+  background: transparent;
+  /* border: 1px dotted blue; */
+}
+
+.device-desc {
+  color: #5b5b5b;
+  flex: 2;
+  font-weight: 400;
+  font-size: 1.2vw;
+  background: transparent;
+  /* border: 1px dotted yellow; */
+}
+
+.device-price {
+  color: #2866c1;
+  flex: 1;
+  font-weight: 400;
+  font-size: 1vw;
+  background: transparent;
+  /* border: 1px dotted purple; */
+}
+
+.device-price span {
+  background: transparent;
+  font-weight: 500;
+  font-size: 1.6vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* end */
